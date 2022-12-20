@@ -1,11 +1,19 @@
-#answer 1 
-str1=("Python is a case sensitive language")
-a1=len(str1)
-print(a1)
+string = "Python is a case sensitive language"
 
-str2=("Python is a case sensitive language")[::-1]
-print(str2)
+length = len(string)
+print(length)
 
+reverse = "Python is a case sensitive language"[::-1]
+print(reverse)
 
-c1=str1[10:]
-print(str1[c1])
+sliced = string[10:27]
+print(sliced)
+
+replaced_string = string.replace("a case sensitive language","object oriented")
+print(replaced_string)
+
+index = string.index("a")
+print(index)
+
+new = string.replace(" ","")
+print(new)
